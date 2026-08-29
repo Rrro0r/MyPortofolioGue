@@ -1,0 +1,147 @@
+/* ═══ RESET & DASAR ══════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--f-body);
+  font-size: var(--t-body);
+  line-height: 1.68;
+  color: var(--ink);
+  background: var(--paper);
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, svg, video { display: block; max-width: 100%; }
+img { height: auto; }
+ul, ol { list-style: none; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+
+::selection { background: var(--blue); color: #fff; }
+
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+[hidden] { display: none !important; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+}
+
+.skip-link {
+  position: fixed; top: -100px; left: 1rem; z-index: 999;
+  padding: .7rem 1.1rem; background: var(--ink); color: #fff;
+  border-radius: 0 0 var(--r-sm) var(--r-sm); font-size: .8rem;
+  transition: top .25s var(--e-out);
+}
+.skip-link:focus { top: 0; }
+/* ═══ TIPOGRAFI PEMBANTU ═════════════════════════════════════ */
+.label {
+  display: inline-flex; align-items: center; gap: .6rem;
+  font-family: var(--f-mono);
+  font-size: var(--t-label);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+.label--light { color: rgba(255,255,255,.72); }
+
+.dash {
+  display: inline-block; width: 2.2rem; height: 1px;
+  background: currentColor; opacity: .5;
+}
+
+/* ═══ RANGKA SECTION ═════════════════════════════════════════ */
+.sec {
+  position: relative;
+  padding: var(--sec-y) var(--gut);
+}
+.sec--paper { background: var(--paper-2); }
+
+.sec__head { position: relative; margin-bottom: clamp(2.2rem, 5vw, 4rem); }
+
+.sec__num {
+  position: absolute; top: -.5em; right: -.06em;
+  font-family: var(--f-display);
+  font-size: clamp(5rem, 17vw, 15rem);
+  line-height: .8;
+  color: color-mix(in srgb, var(--ink) 6%, transparent);
+  pointer-events: none; user-select: none; z-index: 0;
+}
+.sec__num--light { color: rgba(255,255,255,.09); }
+
+.sec__title {
+  position: relative; z-index: 1;
+  font-family: var(--f-display);
+  font-size: var(--t-h2);
+  font-weight: 400;
+  line-height: .94;
+  letter-spacing: -.012em;
+  text-transform: uppercase;
+  margin-top: .55rem;
+  max-width: 22ch;
+}
+.sec__title em {
+  font-family: var(--f-serif);
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: -.01em;
+  color: var(--blue);
+}
+
+.sec__lead {
+  position: relative; z-index: 1;
+  margin-top: 1.1rem;
+  max-width: 52ch;
+  font-size: var(--t-lead);
+  color: var(--ink-soft);
+}
+/* ═══ TEKSTUR & OVERLAY GLOBAL ═══════════════════════════════ */
+.grain {
+  position: fixed; inset: 0; z-index: 900;
+  pointer-events: none; opacity: .34; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E");
+}
+
+.scroll-progress {
+  position: fixed; top: 0; left: 0; right: 0; height: 3px;
+  z-index: 800; background: transparent;
+}
+.scroll-progress span {
+  display: block; height: 100%; width: 0;
+  background: linear-gradient(90deg, var(--blue), var(--amber));
+  transition: width .1s linear;
+}
+
+.cursor-dot {
+  position: fixed; top: 0; left: 0; z-index: 850;
+  width: 26px; height: 26px; margin: -13px 0 0 -13px;
+  border: 1.5px solid var(--blue); border-radius: 50%;
+  pointer-events: none; opacity: 0;
+  transition: opacity .3s, scale .18s var(--e-out), background-color .2s;
+  will-change: transform;
+}
+.cursor-dot.is-on { opacity: .85; }
+.cursor-dot.is-hot {
+  scale: 1.9;
+  background: color-mix(in srgb, var(--blue) 16%, transparent);
+}
+@media (hover: none) { .cursor-dot { display: none; } }
+
+/* garis pemisah tipis bergaya zine */
+.rule {
+  height: 1px; border: 0;
+  background: repeating-linear-gradient(90deg,
+    var(--line-2) 0 8px, transparent 8px 14px);
+}

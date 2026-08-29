@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>TelUtizen StarterBook 2026 — Portofolio &amp; Resume</title>
+<meta name="description" content="Portofolio, Mind of Us, dan Resume PKKMB Telkom University Jakarta 2026." />
+<meta name="theme-color" content="#F2F1EC" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/sections.css" />
+<link rel="stylesheet" href="assets/css/mindmap.css" />
+<link rel="stylesheet" href="assets/css/motion.css" />
+<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+<!-- ═══ dekorasi global ═══ -->
+<div class="grain" aria-hidden="true"></div>
+<div class="scroll-progress"><span id="progressBar"></span></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<a class="skip-link" href="#profil">Lompat ke konten</a>
+
+<!-- ═══ NAV ═══ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#hero">
+    <span class="nav__mark" data-bind="profile.initials">V</span>
+    <span class="nav__brandtext">
+      <b data-bind="profile.name">Nama Lengkap</b>
+      <i data-bind="profile.gugus">Gugus —</i>
+    </span>
+  </a>
+
+  <nav class="nav__links" aria-label="Navigasi utama">
+    <a href="#profil" class="nav__link">Profil</a>
+    <a href="#harapan" class="nav__link">Harapan</a>
+    <a href="#jejak" class="nav__link">Jejak</a>
+    <a href="#swot" class="nav__link">SWOT</a>
+    <a href="#mindofus" class="nav__link">Mind of Us</a>
+    <a href="#resume" class="nav__link">Resume</a>
+  </nav>
+
+  <button class="nav__burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span><span></span>
+  </button>
+</header>
+<!-- ═══ MENU MOBILE ═══ -->
+<div class="mmenu" id="mobileMenu" hidden>
+  <div class="mmenu__inner">
+    <span class="label">Navigasi</span>
+    <a href="#hero"      class="mmenu__link"><em>01</em> Cover</a>
+    <a href="#profil"    class="mmenu__link"><em>02</em> Profil Diri</a>
+    <a href="#harapan"   class="mmenu__link"><em>03</em> Harapan</a>
+    <a href="#jejak"     class="mmenu__link"><em>04</em> Jejak Langkah</a>
+    <a href="#swot"      class="mmenu__link"><em>05</em> Analisis SWOT</a>
+    <a href="#mindofus"  class="mmenu__link"><em>06</em> Mind of Us</a>
+    <a href="#resume"    class="mmenu__link"><em>07</em> Resume PKKMB</a>
+    <div class="mmenu__foot">
+      <span data-bind="profile.prodi">Program Studi</span>
+      <span data-bind="profile.fakultas">Fakultas</span>
+    </div>
+  </div>
+</div>
+
+<main>
+<!-- ═══ 01 · HERO ═══ -->
+<section class="hero" id="hero">
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="hero__sparks" id="heroSparks" aria-hidden="true"></div>
+
+  <span class="rail rail--left"  aria-hidden="true">TELUTIZEN&nbsp;STARTER&nbsp;BOOK</span>
+  <span class="rail rail--right" aria-hidden="true">PRAVARA&nbsp;ARKA&nbsp;·&nbsp;PKKMB&nbsp;2026</span>
+
+  <div class="hero__year" aria-hidden="true"><b>20</b><b>26</b></div>
+
+  <div class="hero__body">
+    <p class="hero__kicker label">
+      <span class="dash"></span> Telkom University Jakarta
+    </p>
+
+    <h1 class="hero__title">
+      <span class="split" data-split>TelUtizen</span>
+      <span class="split hero__title--serif" data-split>Starter</span>
+      <span class="split" data-split>Book</span>
+    </h1>
+
+    <div class="hero__meta reveal" data-d="3">
+      <span class="chip chip--solid" data-bind="profile.gugus">Gugus —</span>
+      <span class="chip" data-bind="profile.prodi">Program Studi</span>
+      <span class="chip" data-bind="profile.fakultas">Fakultas</span>
+    </div>
+
+    <p class="hero__name reveal" data-d="4">
+      <span class="label">Disusun oleh</span>
+      <b data-bind="profile.name">Nama Lengkap</b>
+      <i data-bind="profile.nim">NIM 000000000</i>
+    </p>
+
+    <a href="#profil" class="btn btn--primary reveal" data-d="5">
+      Mulai Perjalanan <span class="btn__arrow">↓</span>
+    </a>
+  </div>
+
+  <figure class="hero__photo reveal" data-d="2">
+    <div class="hero__photoback" aria-hidden="true"></div>
+    <img data-src-bind="profile.photo" alt="Foto formal" loading="eager" />
+    <figcaption class="label"><span data-bind="profile.asal">Asal Daerah</span></figcaption>
+  </figure>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" id="marqueeTrack"></div>
+  </div>
+</section>
+<!-- ═══ 02 · PROFIL DIRI ═══ -->
+<section class="sec sec--paper" id="profil">
+  <header class="sec__head">
+    <span class="sec__num" aria-hidden="true">02</span>
+    <p class="label reveal"><span class="dash"></span> Profil Diri</p>
+    <h2 class="sec__title reveal" data-d="1">Kenalan <em>dulu,</em> yuk</h2>
+  </header>
+
+  <div class="profil">
+    <figure class="polaroid reveal" data-d="1" data-tilt>
+      <img data-src-bind="profile.photo" alt="Foto formal" loading="lazy" />
+      <figcaption>
+        <b data-bind="profile.name">Nama Lengkap</b>
+        <span data-bind="profile.asal">Asal Daerah</span>
+      </figcaption>
+      <svg class="polaroid__spark" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark" /></svg>
+    </figure>
+
+    <div class="profil__main">
+      <dl class="idcard reveal" data-d="2" id="identityList"></dl>
+      <p class="profil__desc reveal" data-d="3" data-bind="profile.deskripsi">Deskripsi singkat.</p>
+    </div>
+  </div>
+
+  <div class="words" id="wordsList"></div>
+
+  <div class="profil__extra">
+    <div class="hobi reveal" data-d="1">
+      <p class="label"><span class="dash"></span> Hobi</p>
+      <ul class="chips" id="hobiList"></ul>
+    </div>
+    <aside class="funfact reveal" data-d="2">
+      <svg class="funfact__spark" viewBox="0 0 40 40" aria-hidden="true"><use href="#spark" /></svg>
+      <p class="label">Fun Fact</p>
+      <p class="funfact__text" data-bind="profile.funFact">Fun fact kamu.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- ═══ 03 · HARAPAN ═══ -->
+<section class="sec harapan" id="harapan">
+  <div class="harapan__grid" aria-hidden="true"></div>
+  <span class="sec__num sec__num--light" aria-hidden="true">03</span>
+  <div class="harapan__inner">
+    <p class="label label--light reveal"><span class="dash"></span> Harapan</p>
+    <blockquote class="harapan__quote reveal" data-d="1">
+      <span class="harapan__mark" aria-hidden="true">&ldquo;</span>
+      <span data-bind="profile.harapan">Harapan selama menjadi mahasiswa.</span>
+    </blockquote>
+    <p class="harapan__sign reveal" data-d="2">
+      — <b data-bind="profile.name">Nama Lengkap</b>,
+      <span data-bind="profile.gugus">Gugus —</span>
+    </p>
+  </div>
+</section>
+<!-- ═══ 04 · JEJAK LANGKAH (opsional) ═══ -->
+<section class="sec sec--paper" id="jejak" hidden>
+  <header class="sec__head">
+    <span class="sec__num" aria-hidden="true">04</span>
+    <p class="label reveal"><span class="dash"></span> Pengalaman &amp; Kepanitiaan</p>
+    <h2 class="sec__title reveal" data-d="1">Jejak <em>langkah</em></h2>
+  </header>
+  <ol class="timeline" id="timelineList"></ol>
+</section>
+
+<!-- ═══ 05 · SWOT ═══ -->
+<section class="sec swot" id="swot">
+  <header class="sec__head">
+    <span class="sec__num" aria-hidden="true">05</span>
+    <p class="label reveal"><span class="dash"></span> Analisis Diri</p>
+    <h2 class="sec__title reveal" data-d="1">S<em>W</em>O<em>T</em></h2>
+    <p class="sec__lead reveal" data-d="2">Empat sisi yang membentuk cara saya bertumbuh.</p>
+  </header>
+  <div class="swot__grid" id="swotGrid"></div>
+</section>
+
+<!-- ═══ 06 · MIND OF US ═══ -->
+<section class="sec mou" id="mindofus">
+  <header class="sec__head">
+    <span class="sec__num" aria-hidden="true">06</span>
+    <p class="label reveal"><span class="dash"></span> Mind of Us</p>
+    <h2 class="sec__title reveal" data-d="1">Mind <em>map</em> teman kelompok</h2>
+    <p class="sec__lead reveal" data-d="2">
+      Geser node untuk menyusun ulang, scroll atau pinch untuk zoom, klik untuk melihat detail.
+    </p>
+  </header>
+
+  <div class="mou__stage reveal" data-d="3">
+    <div class="mou__canvas" id="mouCanvas" role="application"
+         aria-label="Mind map interaktif: geser untuk memindahkan, klik node untuk detail">
+      <svg id="mouSvg" aria-hidden="true">
+        <g id="mouLinks"></g>
+      </svg>
+      <div id="mouNodes"></div>
+    </div>
+
+    <div class="mou__hud">
+      <button class="iconbtn" id="mouZoomIn"  aria-label="Perbesar">+</button>
+      <button class="iconbtn" id="mouZoomOut" aria-label="Perkecil">−</button>
+      <button class="iconbtn iconbtn--wide" id="mouReset">Reset Layout</button>
+      <button class="iconbtn iconbtn--wide" id="mouFull">Fullscreen</button>
+    </div>
+
+    <p class="mou__hint label" id="mouHint">Tarik node · Scroll untuk zoom</p>
+
+    <aside class="mou__panel" id="mouPanel" hidden aria-live="polite">
+      <button class="mou__close" id="mouClose" aria-label="Tutup detail">×</button>
+      <div id="mouPanelBody"></div>
+    </aside>
+  </div>
+</section>
+<!-- ═══ 07 · RESUME ═══ -->
+<section class="sec sec--paper resume" id="resume">
+  <header class="sec__head">
+    <span class="sec__num" aria-hidden="true">07</span>
+    <p class="label reveal"><span class="dash"></span> Resume PKKMB Universitas</p>
+    <h2 class="sec__title reveal" data-d="1">Yang saya <em>bawa pulang</em></h2>
+  </header>
+
+  <div class="resume__wrap reveal" data-d="2">
+    <div class="resume__tabs" id="resumeTabs" role="tablist" aria-label="Daftar materi"></div>
+    <div class="resume__panels" id="resumePanels"></div>
+  </div>
+</section>
+
+<!-- ═══ 08 · FOOTER ═══ -->
+<footer class="foot" id="foot">
+  <div class="foot__grid" aria-hidden="true"></div>
+  <p class="label label--light reveal"><span class="dash"></span> Penutup</p>
+  <p class="foot__quote reveal" data-d="1" data-bind="profile.penutup">Kalimat penutup.</p>
+
+  <div class="foot__meta">
+    <div class="reveal" data-d="2">
+      <span class="label label--light">Berkas Pengumpulan</span>
+      <b id="footFile">TelUtizen StarterBook_Nama_Gugus</b>
+    </div>
+    <div class="reveal" data-d="3">
+      <span class="label label--light">Batas Akhir</span>
+      <b>11 September 2026 · 23.59 WIB</b>
+    </div>
+    <div class="reveal" data-d="4">
+      <span class="label label--light">Kelompok</span>
+      <b data-bind="profile.gugus">Gugus —</b>
+    </div>
+  </div>
+
+  <div class="foot__bottom">
+    <div class="barcode" aria-hidden="true"></div>
+    <span class="label label--light">© 2026 · PKKMB Telkom University Jakarta</span>
+  </div>
+</footer>
+</main>
+
+<!-- ═══ SVG sprite ═══ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="spark" viewBox="0 0 40 40">
+      <path d="M20 0c1.6 11.2 8.8 18.4 20 20-11.2 1.6-18.4 8.8-20 20-1.6-11.2-8.8-18.4-20-20C11.2 18.4 18.4 11.2 20 0Z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<script src="data/content.js"></script>
+<script src="assets/js/render.js"></script>
+<script src="assets/js/mindmap.js"></script>
+<script src="assets/js/motion.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/* ═══ RESPONSIF ══════════════════════════════════════════════ */
+
+/* ── ≤ 1080px : tablet lanskap ───────────────────────────────── */
+@media (max-width: 1080px) {
+  :root { --grid-size: 26px; }
+
+  .nav__links { gap: 0; }
+  .nav__link  { padding: .45rem .6rem; font-size: .76rem; }
+
+  .hero { grid-template-columns: 1fr .8fr; }
+  .hero__photo { width: min(290px, 40vw); }
+
+  .rail { display: none; }
+
+  .resume__wrap { grid-template-columns: minmax(180px, 240px) 1fr; }
+}
+
+/* ── ≤ 900px : tablet portrait & mobile ─────────────────────── */
+@media (max-width: 900px) {
+  .nav__links     { display: none; }
+  .nav__burger    { display: block; }
+  .nav__brandtext b { font-size: .78rem; }
+
+  /* hero jadi satu kolom, foto di atas teks */
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: clamp(6.5rem, 18vh, 8.5rem);
+    padding-bottom: 5rem;
+    text-align: left;
+  }
+  .hero__grid { mask-image: radial-gradient(140% 80% at 50% 30%, #000 20%, transparent 80%); }
+  .hero__body  { order: 2; }
+  .hero__photo { order: 1; width: min(230px, 58vw); justify-self: start; margin-bottom: 1.8rem; }
+  .hero__year  { top: auto; bottom: 4.4rem; right: var(--gut); flex-direction: row; gap: .25rem; }
+  .hero__title { font-size: clamp(2.6rem, 15vw, 4.6rem); }
+  .hero__title .split:last-child { -webkit-text-stroke-width: 1.2px; }
+
+  .profil { grid-template-columns: 1fr; }
+  .polaroid { width: min(260px, 68vw); margin-inline: auto; }
+
+  .words          { grid-template-columns: 1fr; }
+  .profil__extra  { grid-template-columns: 1fr; }
+  .swot__grid     { grid-template-columns: 1fr; }
+  .foot__meta     { grid-template-columns: 1fr; gap: 1.3rem; }
+}
+/* ── Mind of Us & Resume di layar sempit ────────────────────── */
+@media (max-width: 900px) {
+  .mou__stage { height: clamp(400px, 62vh, 520px); }
+
+  .mou__hud {
+    top: auto; bottom: .7rem; right: .7rem; left: .7rem;
+    justify-content: center;
+  }
+  .mou__hint { bottom: auto; top: .8rem; left: .8rem; font-size: .54rem; }
+
+  /* panel detail jadi bottom sheet */
+  .mou__panel {
+    left: 0; right: 0; bottom: 0;
+    width: 100%; max-height: 68%;
+    border-radius: var(--r-lg) var(--r-lg) 0 0;
+    border-inline: 0; border-bottom: 0;
+    padding-bottom: 1.6rem;
+    animation: sheetIn .4s var(--e-out);
+  }
+  @keyframes sheetIn { from { transform: translateY(100%); } }
+
+  /* tab resume jadi baris yang bisa digeser */
+  .resume__wrap { grid-template-columns: 1fr; }
+  .resume__tabs {
+    flex-direction: row;
+    gap: .45rem;
+    overflow-x: auto;
+    padding-bottom: .5rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .resume__tabs::-webkit-scrollbar { display: none; }
+  .rtab {
+    flex: 0 0 auto; max-width: 62vw;
+    scroll-snap-align: start;
+    border-color: var(--line-2); border-radius: 999px;
+    padding: .6rem .95rem;
+  }
+  .rtab b { font-size: .8rem; white-space: nowrap; overflow: hidden;
+            text-overflow: ellipsis; max-width: 44vw; }
+  .rtab:hover { transform: none; }
+
+  .timeline { padding-left: 1.5rem; }
+}
+/* ── ≤ 560px : ponsel ───────────────────────────────────────── */
+@media (max-width: 560px) {
+  :root { --grid-size: 22px; }
+
+  body { line-height: 1.64; }
+
+  .nav { padding-block: .6rem; }
+  .nav__brandtext i { display: none; }
+
+  .hero__photoback { inset: 8% -6% -4% -6%; }
+  .hero__name { margin-top: 1.3rem; }
+  .hero__body .btn { width: 100%; justify-content: center; }
+
+  .sec__num { font-size: clamp(4.5rem, 26vw, 8rem); top: -.36em; }
+
+  .idcard > div { padding: .8rem .85rem; min-width: 130px; }
+  .idcard dd { font-size: .85rem; }
+
+  .word__k { font-size: clamp(1.6rem, 9vw, 2.1rem); }
+
+  .harapan__mark { left: -.18em; font-size: 2.1em; }
+
+  .mnode { min-width: 130px; max-width: 168px; padding: .65rem .8rem; }
+  .mnode--self { min-width: 158px; max-width: 200px; padding: .85rem 1rem; }
+  .mnode__nama { font-size: .76rem; }
+  .mnode--self .mnode__nama { font-size: .88rem; }
+
+  .rpanel { padding: 1.15rem 1.1rem; }
+  .foot__bottom { justify-content: flex-start; }
+}
+
+/* ── ≤ 350px : ponsel kecil ─────────────────────────────────── */
+@media (max-width: 350px) {
+  .hero__year { display: none; }
+}
+
+/* ── perangkat sentuh : matikan efek hover-only ─────────────── */
+@media (hover: none) {
+  .card:hover, .word:hover, .sw:hover, .chip:hover, .btn:hover { transform: none; }
+  .word:hover::before { transform: translateY(101%); }
+  .word:hover { color: inherit; border-color: var(--line-2); }
+}
