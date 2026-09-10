@@ -111,7 +111,6 @@ const CONTENT = {
       fakultas: "Informatika",
       hobi    : "berenang",
       funFact : "jahil.",
-      foto    : "KG"
     },
     {
       nama    : "Najwaa vici maharani",
@@ -120,7 +119,6 @@ const CONTENT = {
       fakultas: "Teknik Elektro",
       hobi    : "Baca Novel",
       funFact : "Tidak menyukai hal manis.",
-      foto    : "NVM"
     },
     {
       nama    : "Rafee Adji Nugroho ",
@@ -129,7 +127,6 @@ const CONTENT = {
       fakultas: "Informatika",
       hobi    : "Bermain game",
       funFact : "Mudah bosan.",
-      foto    : "RAN"
     },
     {
       nama    : "Rifqi Fadhilah",
@@ -138,7 +135,6 @@ const CONTENT = {
       fakultas: "Rekayasa Industri",
       hobi    : "Olahraga",
       funFact : "Mudah Berteman.",
-      foto    : "RF"
     }
   ],
   /* ── 6. RESUME — satu objek per materi PKKMB ─────────────────
