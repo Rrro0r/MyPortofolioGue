@@ -184,12 +184,5 @@ const CONTENT = {
       dipelajari : ["Pentingnya melakukan perubahan dan menolah data pada setiap sumber referensi."],
       kesimpulan : "Menggunakan teknoloki dengan etika agar membentuk lulusan yang berkarakter, jujur dan profesional."
     }
-    {
-      materi     : "Growth Mindset and Future Skill for Mahasiswa",
-      tanggal    : "PKKMB Day 1",
-      poinUtama  : ["Pemanfaatkan AI harus berlandaskan etika dan jelas, yang digunakan sebagai alat berpikir, bukan pengganti sebuah karya seseorang."],
-      dipelajari : ["Pentingnya melakukan perubahan dan menolah data pada setiap sumber referensi."],
-      kesimpulan : "Menggunakan teknoloki dengan etika agar membentuk lulusan yang berkarakter, jujur dan profesional."
-    }
   ]
 };
