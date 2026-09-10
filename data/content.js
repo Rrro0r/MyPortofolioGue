@@ -54,23 +54,17 @@ const CONTENT = {
      seluruh section otomatis disembunyikan.                      */
   pengalaman: [
     {
-      tahun : "2025",
-      judul : "Nama Organisasi / Kepanitiaan",
-      peran : "Jabatan atau Peran",
-      detail: "Ceritakan singkat apa yang kamu kerjakan dan hasilnya."
-    },
-    {
       tahun : "2024",
-      judul : "Nama Kegiatan Lain",
-      peran : "Jabatan atau Peran",
-      detail: "Ceritakan singkat apa yang kamu kerjakan dan hasilnya."
+      judul : "OSIS",
+      peran : "Anggota",
+      detail: "Membuat susunan acara dan memastikan acara berjalan dengan lancar dan sesuai pada urutannya,•	Mempersiapkan dan menyusun seluruh kebutuhan yang diperlukan untuk acara yang akan diselenggarakan."
     },
     {
-      tahun : "2023",
-      judul : "Pengalaman Relevan Lainnya",
-      peran : "Jabatan atau Peran",
-      detail: "Ceritakan singkat apa yang kamu kerjakan dan hasilnya."
-    }
+      tahun : "2025",
+      judul : "PKL",
+      peran : "Anak PKL",
+      detail: "Mengembangkan dan mengeksekusi iklan digital menggunakan tools AI (Artificial Intelegence atau kecerdasan buatan). Seperti menggunakan Chat GPT untuk membuat naskah lalu menggunakan Whisk AI dan Google Veo 2 untuk menghasilkan video serta sound effect.•	Merancang dan menghasilkan model 3D aset visual dari sebuah produk menggunakan software Blender untuk kebutuhan materi iklan digital."
+    },
   ],
 
   /* ── 4. ANALISIS DIRI (SWOT) ──────────────────────────────── */
@@ -78,26 +72,26 @@ const CONTENT = {
     {
       key  : "S",
       nama : "Strength",
-      arti : "Potensi atau keunggulan yang dimiliki",
-      items: ["Kekuatan pertama.", "Kekuatan kedua.", "Kekuatan ketiga."]
+      arti : "Potensi",
+      items: ["Cepat bergaul.", "Mudah beradaptasi.", "Konsisten."]
     },
     {
       key  : "W",
       nama : "Weakness",
-      arti : "Hal yang masih perlu dikembangkan",
-      items: ["Kelemahan pertama.", "Kelemahan kedua.", "Kelemahan ketiga."]
+      arti : "Kelemahan",
+      items: ["Pelupa.", "Kurang teliti.", "Cepat Bosan."]
     },
     {
       key  : "O",
       nama : "Opportunity",
-      arti : "Peluang untuk mengembangkan potensi diri",
-      items: ["Peluang pertama.", "Peluang kedua.", "Peluang ketiga."]
+      arti : "Peluang",
+      items: ["Mencari beasiswa.", "lingkungan pertemanan.", "Teknologi digital."]
     },
     {
       key  : "T",
       nama : "Threat",
-      arti : "Tantangan yang berpotensi menghambat",
-      items: ["Tantangan pertama.", "Tantangan kedua.", "Tantangan ketiga."]
+      arti : "Tantangan",
+      items: ["Distraksi.", "Persaingan akademik.", "Manajemen waktu."]
     }
   ],
   /* ── 5. MIND OF US — maksimal 5 anggota kelompok ───────────── */
