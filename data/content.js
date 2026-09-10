@@ -19,7 +19,7 @@ const CONTENT = {
     photo    : "Pas Photo.Jpg",
 
     // Maksimal 5 kalimat.
-    deskripsi: "Tulis deskripsi singkat tentang dirimu di sini, maksimal lima kalimat. " +
+    deskripsi: "Gadis yang baru saja lulus dari pendidikan menengah. " +
                "Ceritakan latar belakangmu dan apa yang sedang kamu tekuni. " +
                "Sebutkan hal yang paling kamu nikmati saat belajar atau berkarya. " +
                "Tambahkan nilai atau prinsip yang kamu pegang. " +
