@@ -164,28 +164,25 @@ const CONTENT = {
       kesimpulan : "Fasilitas yang disediakan oleh kampus dapat menciptakan ruang aman sesama mahasiswa."
     },
     {
-      materi     : "Judul Materi 3",
-      pemateri   : "Nama Pemateri",
-      tanggal    : "Hari, Tanggal",
-      poinUtama  : ["Poin utama pertama.", "Poin utama kedua."],
-      dipelajari : ["Hal baru pertama.", "Hal baru kedua."],
-      kesimpulan : "Tulis kesimpulan singkatmu dari materi ini."
+      materi     : "Prestasi Kemahasiswaan dan TAK",
+      tanggal    : "PRA PKKMB",
+      poinUtama  : ["Pengenalan poin aktivitas kemahasiswaan yang menjadi syarat untuk mengikuti sidang akhir dan kelulusan"],
+      dipelajari : ["Poin TAK dapat diperoleh melalui kegiatan diluar kamous seperti lomba atau softskill"],
+      kesimpulan : "Setiap kegiatan yang dilakukan oleh Mahasiswa diluar kampus akan diberi penghargaan berupa poin TAK."
     },
     {
-      materi     : "Judul Materi 4",
-      pemateri   : "Nama Pemateri",
-      tanggal    : "Hari, Tanggal",
-      poinUtama  : ["Poin utama pertama.", "Poin utama kedua."],
-      dipelajari : ["Hal baru pertama.", "Hal baru kedua."],
-      kesimpulan : "Tulis kesimpulan singkatmu dari materi ini."
+      materi     : "Nilai Tata Krama dan Budaya Kampus. Materi HEI",
+      tanggal    : "PKKMB Day 1",
+      poinUtama  : ["HEI Bukan sekedar nilai, tetapi cara kita hidup, berpikir, dan bertindak untuk masa depan yang lebih baik,Jangan pernah berhenti bermimpi, karena mimpi adalah bahan bakar untuk bengubah dunia - B.J Habibie."],
+      dipelajari : ["Kampus adalah tempat terbaik untuk melahih HEI dalam kehidupan nyata"],
+      kesimpulan : "Pilihan kecil hari ini membentuk masa depan yang luar biasa. Unggul dalam softskill dan terarag dalam prestasi akademik."
     },
     {
-      materi     : "UKM Fair",
-      pemateri   : "—",
-      tanggal    : "Hari, Tanggal",
-      poinUtama  : ["Poin utama pertama.", "Poin utama kedua."],
-      dipelajari : ["Hal baru pertama.", "Hal baru kedua."],
-      kesimpulan : "Tulis kesimpulan singkatmu dari kegiatan ini."
+      materi     : "Growth Mindset and Future Skill for Mahasiswa",
+      tanggal    : "PKKMB Day 1",
+      poinUtama  : ["Pemanfaatkan AI harus berlandaskan etika dan jelas, yang digunakan sebagai alat berpikir, bukan pengganti sebuah karya seseorang."],
+      dipelajari : ["Pentingnya melakukan perubahan dan menolah data pada setiap sumber referensi."],
+      kesimpulan : "Menggunakan teknoloki dengan etika agar membentuk lulusan yang berkarakter, jujur dan profesional."
     }
   ]
 };
