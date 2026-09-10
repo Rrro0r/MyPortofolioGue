@@ -185,11 +185,11 @@ const CONTENT = {
       kesimpulan : "Menggunakan teknoloki dengan etika agar membentuk lulusan yang berkarakter, jujur dan profesional."
     },
     {
-      materi     : "Growth Mindset and Future Skill for Mahasiswa",
+      materi     : "Mental Health",
       tanggal    : "PKKMB Day 1",
-      poinUtama  : ["Pemanfaatkan AI harus berlandaskan etika dan jelas, yang digunakan sebagai alat berpikir, bukan pengganti sebuah karya seseorang."],
-      dipelajari : ["Pentingnya melakukan perubahan dan menolah data pada setiap sumber referensi."],
-      kesimpulan : "Menggunakan teknoloki dengan etika agar membentuk lulusan yang berkarakter, jujur dan profesional."
+      poinUtama  : ["Kesehatan mental bukan berarti selalu merasa baik. Yang penting adalah kita mampu mengenali, merespon, dan mencari dukungan saat dibutuhkan. Seseorang dapat merasa sedih, cemas, dan bingung bukan artinya lemah, kurang beriman, apalagi pasrah."],
+      dipelajari : ["Kondisi kita bergerak mengikuti situasi, pengalaman, sumber daya, dan dukungan lingkungan."],
+      kesimpulan : "Mengecek apa yang sedang terjadi di dalam diri. apa yang tubuh buthkan, apa yang sedang berulang  di kepala, emosi apa yang peling kuat, dan apa yang ku butuhkan."
     }
   ]
 };
