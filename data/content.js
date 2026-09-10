@@ -103,7 +103,6 @@ const CONTENT = {
       fakultas: "Rekayasa industri",
       hobi    : "Olahraga",
       funFact : "Mudah Mengantuk.",
-      foto    : "NTC"                 // opsional: "assets/img/anggota1.jpg"
     },
     {
       nama    : "Ksatria Ghassan",
