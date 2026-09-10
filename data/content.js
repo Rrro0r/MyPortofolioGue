@@ -20,10 +20,10 @@ const CONTENT = {
 
     // Maksimal 5 kalimat.
     deskripsi: "Gadis yang baru saja lulus dari pendidikan menengah. " +
-               "Ceritakan latar belakangmu dan apa yang sedang kamu tekuni. " +
-               "Sebutkan hal yang paling kamu nikmati saat belajar atau berkarya. " +
-               "Tambahkan nilai atau prinsip yang kamu pegang. " +
-               "Tutup dengan arah yang ingin kamu tuju.",
+               "Sangat menyukai ide kreatif dan menuangkannya dalam sebuah karya. " +
+               "Menikmati menuntaskan tugas dengan musik yang mengalun. " +
+               "Memegang prinsip bahwa Show Must Go On. " +
+               "Ingin Berasa dibalik layat sebuah karya keren.",
 
     // Tepat tiga kata.
     tigaKata : [
