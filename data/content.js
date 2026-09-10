@@ -27,18 +27,18 @@ const CONTENT = {
 
     // Tepat tiga kata.
     tigaKata : [
-      { kata: "Kata Satu", arti: "Penjelasan singkat kenapa kata ini menggambarkan kamu." },
-      { kata: "Kata Dua",  arti: "Penjelasan singkat kenapa kata ini menggambarkan kamu." },
-      { kata: "Kata Tiga", arti: "Penjelasan singkat kenapa kata ini menggambarkan kamu." }
+      { kata: "Show", },
+      { kata: "Must", },
+      { kata: "Go On", }
     ],
 
-    hobi     : ["Hobi Pertama", "Hobi Kedua", "Hobi Ketiga", "Hobi Keempat"],
+    hobi     : ["Karaoke", "Game", "Gambar", "Musik"],
 
-    funFact  : "Tulis satu fakta unik tentang dirimu yang jarang orang tahu.",
+    funFact  : "Mudah Lose Streak.",
 
-    harapan  : "Tulis harapanmu selama menjadi mahasiswa Telkom University di sini.",
+    harapan  : "Berkembang secara akademis dan membangun relasi pertemanan.",
 
-    penutup  : "Satu kalimat penutup untuk menutup portofolio ini.",
+    penutup  : "Show Must Go On.",
 
     // Format wajib: TelUtizen StarterBook_Nama_Gugus
     fileName : "TelUtizen StarterBook_Nama_Gugus"
