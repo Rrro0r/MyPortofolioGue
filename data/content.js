@@ -57,13 +57,13 @@ const CONTENT = {
       tahun : "2024",
       judul : "OSIS",
       peran : "Anggota",
-      detail: "Membuat susunan acara dan memastikan acara berjalan dengan lancar dan sesuai pada urutannya,•	Mempersiapkan dan menyusun seluruh kebutuhan yang diperlukan untuk acara yang akan diselenggarakan."
+      detail: "Membuat susunan acara dan memastikan acara berjalan dengan lancar dan sesuai pada urutannya,	Mempersiapkan dan menyusun seluruh kebutuhan yang diperlukan untuk acara yang akan diselenggarakan."
     },
     {
       tahun : "2025",
       judul : "PKL",
       peran : "Anak PKL",
-      detail: "Mengembangkan dan mengeksekusi iklan digital menggunakan tools AI (Artificial Intelegence atau kecerdasan buatan). Seperti menggunakan Chat GPT untuk membuat naskah lalu menggunakan Whisk AI dan Google Veo 2 untuk menghasilkan video serta sound effect.•	Merancang dan menghasilkan model 3D aset visual dari sebuah produk menggunakan software Blender untuk kebutuhan materi iklan digital."
+      detail: "Mengembangkan dan mengeksekusi iklan digital menggunakan tools AI (Artificial Intelegence atau kecerdasan buatan). Seperti menggunakan Chat GPT untuk membuat naskah lalu menggunakan Whisk AI dan Google Veo 2 untuk menghasilkan video serta sound effect. Merancang dan menghasilkan model 3D aset visual dari sebuah produk menggunakan software Blender untuk kebutuhan materi iklan digital."
     },
   ],
 
@@ -85,7 +85,7 @@ const CONTENT = {
       key  : "O",
       nama : "Opportunity",
       arti : "Peluang",
-      items: ["Mencari beasiswa.", "lingkungan pertemanan.", "Teknologi digital."]
+      items: ["Branding Diri.", "lingkungan pertemanan.", "Teknologi digital."]
     },
     {
       key  : "T",
@@ -97,49 +97,49 @@ const CONTENT = {
   /* ── 5. MIND OF US — maksimal 5 anggota kelompok ───────────── */
   kelompok: [
     {
-      nama    : "Nama Anggota 1",
-      asal    : "Kota Asal",
-      prodi   : "Program Studi",
-      fakultas: "Fakultas",
-      hobi    : "Hobi",
-      funFact : "Fun fact anggota ini.",
-      foto    : ""                 // opsional: "assets/img/anggota1.jpg"
+      nama    : "Nadira tifannya chalista",
+      asal    : "Bekasi",
+      prodi   : "Sistem Informasi",
+      fakultas: "Rekayasa industri",
+      hobi    : "Olahraga",
+      funFact : "Mudah Mengantuk.",
+      foto    : "NTC"                 // opsional: "assets/img/anggota1.jpg"
     },
     {
-      nama    : "Nama Anggota 2",
-      asal    : "Kota Asal",
-      prodi   : "Program Studi",
-      fakultas: "Fakultas",
-      hobi    : "Hobi",
-      funFact : "Fun fact anggota ini.",
-      foto    : ""
+      nama    : "Ksatria Ghassan",
+      asal    : "Jakarta",
+      prodi   : "Teknologi Informasi",
+      fakultas: "Informatika",
+      hobi    : "berenang",
+      funFact : "jahil.",
+      foto    : "KG"
     },
     {
-      nama    : "Nama Anggota 3",
-      asal    : "Kota Asal",
-      prodi   : "Program Studi",
-      fakultas: "Fakultas",
-      hobi    : "Hobi",
-      funFact : "Fun fact anggota ini.",
-      foto    : ""
+      nama    : "Najwaa vici maharani",
+      asal    : "Jakarta",
+      prodi   : "Teknik Telekomunikasi",
+      fakultas: "Teknik Elektro",
+      hobi    : "Baca Novel",
+      funFact : "Tidak menyukai hal manis.",
+      foto    : "NVM"
     },
     {
-      nama    : "Nama Anggota 4",
-      asal    : "Kota Asal",
-      prodi   : "Program Studi",
-      fakultas: "Fakultas",
-      hobi    : "Hobi",
-      funFact : "Fun fact anggota ini.",
-      foto    : ""
+      nama    : "Rafee Adji Nugroho ",
+      asal    : "Depok",
+      prodi   : "Teknologi Informasi",
+      fakultas: "Informatika",
+      hobi    : "Bermain game",
+      funFact : "Mudah bosan.",
+      foto    : "RAN"
     },
     {
-      nama    : "Nama Anggota 5",
-      asal    : "Kota Asal",
-      prodi   : "Program Studi",
-      fakultas: "Fakultas",
-      hobi    : "Hobi",
-      funFact : "Fun fact anggota ini.",
-      foto    : ""
+      nama    : "Rifqi Fadhilah",
+      asal    : "Jakarta Barat",
+      prodi   : "Sistem Informasi",
+      fakultas: "Rekayasa Industri",
+      hobi    : "Olahraga",
+      funFact : "Mudah Berteman.",
+      foto    : "RF"
     }
   ],
   /* ── 6. RESUME — satu objek per materi PKKMB ─────────────────
