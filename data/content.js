@@ -197,6 +197,20 @@ const CONTENT = {
       poinUtama  : ["Plagiarisme memiliki beberapa tipe. seperti Word of Plagiarism, Penulis menggunakan kata-kata penulis lain yang sama persis tanpa menyebutkan sumbernya. Plagiarism of Source, Penulis menggunakan gagasan orang lain tanpa memberikan pengakuan yang cukup. Plaguarism of Authorship, Penulis mengakui karya tulis orang lain sebagai kaeyanya sendiri. Self Plagiarism, Penulis mempublikasikan satu artikel pada lebih dari redaksi penerbit dan mendaur ulang karya tulisnya sendiri untuk dipublikasikan kembali tanpa perubahan yang berarti."],
       dipelajari : ["Plagiarisme dapat dicegah dengan beberapa langkah seperti dengan menggunakan pengutipan, parafrase, membuat daftar pustaka dengan baik dan benar."],
       kesimpulan : "Kampus menyediakan fasilitas untuk mendeteksi plagiarism dan menyediakan sumber untuk membuat jurnal atau artikel."
+    },
+    {
+      materi     : "Sharing Mahasiswa",
+      tanggal    : "PKKMB Day 2",
+      poinUtama  : ["Perkuliahan dalam satu semester berjalan dengan 16 kali pertemun, Kampus memiliki aturan dimana mewajibkan ketidakhadiran maksimal hanya sebanyak 3 kali per mata kuliah."],
+      dipelajari : ["Penilaian menggunakan sistem hufur A-E dengan standar kelulusan minimum bernilai C. Mahasiswa dapat berkonseling pada guru pembimbing masing-masing tentang akademik."],
+      kesimpulan : "Mahasiswa diwajibkan mengikuti perkuliahan secara disiplin karena ini sangat dibutuhkan untuk perencanaan studi seseorang kedepannya."
+    },
+    {
+      materi     : "Sharing Mahasiswa",
+      tanggal    : "PKKMB Day 3",
+      poinUtama  : ["Jangan takut untuk mencari info dan mencoba lomba dari komunikasi dan platform kampus dengan kolaborasi tim untuk saling melengkapi, perbanyak riset dan membaca  untuk memperkuat ide dan referensi, dan melakukan evaluasi dan masukan untuk lomba berikutnya."],
+      dipelajari : ["Tidak perlu berkembang sendirian, kamu dapat mencari seseorang untuk menjadi partner dan membentuk sebuah tim.."],
+      kesimpulan : "Berpegang pada prinsip, Kalau suatu hari saya tiada, saya ingin ada sesuatu yang pernah saya bangun dan terus bermanfaat bagi orang lain."
     }
   ]
 };
