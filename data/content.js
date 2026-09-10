@@ -16,14 +16,14 @@ const CONTENT = {
     asal     : "Bekasi, Jawa Barat",
 
     // Taruh fotonya di assets/img/ lalu tulis nama filenya di bawah.
-    photo    : "Pas Photo.Jpeg",
+    photo    : "Pas Photo.Jpg",
 
     // Maksimal 5 kalimat.
-    deskripsi: "Gadis perempuan yang baru saja menyelesaikan pendidikan sekolah menengahnya" +
-               "Sangat menyukai ide kreatif dan menuangkannya dalam sebuah karya. " +
-               "Menikmati menuntaskan tugas dengan musik yang mengalun. " +
-               "Memegang prinsip bahwa Show Must Go On. " +
-               "Ingin berada dibalik layar sebuah karya mempesona. " +
+    deskripsi: "Tulis deskripsi singkat tentang dirimu di sini, maksimal lima kalimat. " +
+               "Ceritakan latar belakangmu dan apa yang sedang kamu tekuni. " +
+               "Sebutkan hal yang paling kamu nikmati saat belajar atau berkarya. " +
+               "Tambahkan nilai atau prinsip yang kamu pegang. " +
+               "Tutup dengan arah yang ingin kamu tuju.",
 
     // Tepat tiga kata.
     tigaKata : [
