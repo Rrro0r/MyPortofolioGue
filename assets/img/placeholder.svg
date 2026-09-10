@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400" role="img" aria-label="Placeholder foto">
+<svg xmlns="Pas Photo.jpg" viewBox="0 0 300 400" width="300" height="400" role="img" aria-label="Placeholder foto">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#E2E7FF"/>
@@ -18,5 +18,5 @@
   <path d="M150 24c2.4 16.8 13.2 27.6 30 30-16.8 2.4-27.6 13.2-30 30-2.4-16.8-13.2-27.6-30-30 16.8-2.4 27.6-13.2 30-30Z" fill="#F0872E"/>
 
   <text x="150" y="374" text-anchor="middle" font-family="'Space Mono',monospace"
-        font-size="13" letter-spacing="4" fill="#1B2FE8" opacity=".75">FOTO KAMU</text>
+        font-size="13" letter-spacing="4" fill="#1B2FE8" opacity=".75">Peroooo</text>
 </svg>
