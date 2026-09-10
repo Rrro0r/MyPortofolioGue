@@ -190,6 +190,13 @@ const CONTENT = {
       poinUtama  : ["Kesehatan mental bukan berarti selalu merasa baik. Yang penting adalah kita mampu mengenali, merespon, dan mencari dukungan saat dibutuhkan. Seseorang dapat merasa sedih, cemas, dan bingung bukan artinya lemah, kurang beriman, apalagi pasrah."],
       dipelajari : ["Kondisi kita bergerak mengikuti situasi, pengalaman, sumber daya, dan dukungan lingkungan."],
       kesimpulan : "Mengecek apa yang sedang terjadi di dalam diri. apa yang tubuh buthkan, apa yang sedang berulang  di kepala, emosi apa yang peling kuat, dan apa yang ku butuhkan."
+    },
+    {
+      materi     : "Anti Plagiarisme",
+      tanggal    : "PKKMB Day 1",
+      poinUtama  : ["Plagiarisme memiliki beberapa tipe. seperti Word of Plagiarism, Penulis menggunakan kata-kata penulis lain yang sama persis tanpa menyebutkan sumbernya. Plagiarism of Source, Penulis menggunakan gagasan orang lain tanpa memberikan pengakuan yang cukup. Plaguarism of Authorship, Penulis mengakui karya tulis orang lain sebagai kaeyanya sendiri. Self Plagiarism, Penulis mempublikasikan satu artikel pada lebih dari redaksi penerbit dan mendaur ulang karya tulisnya sendiri untuk dipublikasikan kembali tanpa perubahan yang berarti."],
+      dipelajari : ["Plagiarisme dapat dicegah dengan beberapa langkah seperti dengan menggunakan pengutipan, parafrase, membuat daftar pustaka dengan baik dan benar."],
+      kesimpulan : "Kampus menyediakan fasilitas untuk mendeteksi plagiarism dan menyediakan sumber untuk membuat jurnal atau artikel."
     }
   ]
 };
