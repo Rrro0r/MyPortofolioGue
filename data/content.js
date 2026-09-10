@@ -16,7 +16,7 @@ const CONTENT = {
     asal     : "Bekasi, Jawa Barat",
 
     // Taruh fotonya di assets/img/ lalu tulis nama filenya di bawah.
-    photo    : "Pas Photo.jpeg",
+    photo    : "foto.jpeg",
 
     // Maksimal 5 kalimat.
     deskripsi: "Gadis yang baru saja lulus dari pendidikan menengah. " +
