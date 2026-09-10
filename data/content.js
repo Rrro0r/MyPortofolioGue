@@ -19,11 +19,11 @@ const CONTENT = {
     photo    : "Pas Photo.Jpeg",
 
     // Maksimal 5 kalimat.
-    deskripsi: "Gadis perempuan yang baru saja menyelesaikan pendidikan sekolah menengahnya" +
-               "Sangat menyukai ide kreatif dan menuangkannya dalam sebuah karya. " +
-               "Menikmati menuntaskan tugas dengan musik yang mengalun. " +
-               "Memegang prinsip bahwa Show Must Go On. " +
-               "Ingin berada dibalik layar sebuah karya yang indah.",
+    deskripsi: "Tulis deskripsi singkat tentang dirimu di sini, maksimal lima kalimat. " +
+               "Ceritakan latar belakangmu dan apa yang sedang kamu tekuni. " +
+               "Sebutkan hal yang paling kamu nikmati saat belajar atau berkarya. " +
+               "Tambahkan nilai atau prinsip yang kamu pegang. " +
+               "Tutup dengan arah yang ingin kamu tuju.",
 
     // Tepat tiga kata.
     tigaKata : [
@@ -32,16 +32,16 @@ const CONTENT = {
       { kata: "Kata Tiga", arti: "Penjelasan singkat kenapa kata ini menggambarkan kamu." }
     ],
 
-    hobi     : ["Karaoke", "Mendengarkan Musik", "Menggambar", "Bermain Game"],
+    hobi     : ["Hobi Pertama", "Hobi Kedua", "Hobi Ketiga", "Hobi Keempat"],
 
-    funFact  : "Gampang lose streak kalo main bareng.",
+    funFact  : "Tulis satu fakta unik tentang dirimu yang jarang orang tahu.",
 
-    harapan  : "Berkembang dan meraih prestasi secara akademik dan membangun relasi dengan berbagai macam manusia.",
+    harapan  : "Tulis harapanmu selama menjadi mahasiswa Telkom University di sini.",
 
-    penutup  : "Berharap dapat bertahan dengan memegang prinsip.",
+    penutup  : "Satu kalimat penutup untuk menutup portofolio ini.",
 
     // Format wajib: TelUtizen StarterBook_Nama_Gugus
-    fileName : "TelUtizen StarterBook_Veronica Standy_Gugus7"
+    fileName : "TelUtizen StarterBook_Nama_Gugus"
   },
 
   /* ── 2. TEKS BERJALAN DI BAWAH HERO ───────────────────────── */
@@ -54,87 +54,98 @@ const CONTENT = {
      seluruh section otomatis disembunyikan.                      */
   pengalaman: [
     {
-      tahun : "2024",
-      judul : "OSIS",
-      peran : "Anggota",
-      detail: "•	Membuat susunan acara dan memastikan acara berjalan dengan lancar dan sesuai pada urutannya.	Mempersiapkan dan menyusun seluruh kebutuhan yang diperlukan untuk acara yang akan diselenggarakan
-."
+      tahun : "2025",
+      judul : "Nama Organisasi / Kepanitiaan",
+      peran : "Jabatan atau Peran",
+      detail: "Ceritakan singkat apa yang kamu kerjakan dan hasilnya."
     },
     {
       tahun : "2024",
-      judul : "Praktik Kerja Lapangan PKL",
-      peran : "Anak PKL",
-      detail: "•	Mengembangkan dan mengeksekusi iklan digital menggunakan tools AI (Artificial Intelegence atau kecerdasan buatan). Seperti menggunakan Chat GPT untuk membuat naskah lalu menggunakan Whisk AI dan Google Veo 2 untuk menghasilkan video serta sound effect. Namun, AI bukanlah hal yangdapat digunakan dengan mudah begitu saja untuk membuat video, karena sulitnya konsistensi pada video yang dihasilkan serta menyesuaikannya dengan naskah dan moodboard yang telah dibuat. Sehingga dari situ saya belajar dan memahami bagaimana cara memanfaatkan AI dan menjadikan AI sebagai perkembangan teknologi yang dapat dimanfaatkan untuk efektifitas pekerjaan manusia.	Merancang dan menghasilkan model 3D aset visual dari sebuah produk menggunakan software Blender untuk kebutuhan materi iklan digital
-."
+      judul : "Nama Kegiatan Lain",
+      peran : "Jabatan atau Peran",
+      detail: "Ceritakan singkat apa yang kamu kerjakan dan hasilnya."
     },
+    {
+      tahun : "2023",
+      judul : "Pengalaman Relevan Lainnya",
+      peran : "Jabatan atau Peran",
+      detail: "Ceritakan singkat apa yang kamu kerjakan dan hasilnya."
+    }
+  ],
+
   /* ── 4. ANALISIS DIRI (SWOT) ──────────────────────────────── */
   swot: [
     {
       key  : "S",
       nama : "Strength",
-      arti : "Potensi atau keunggulan",
-      items: ["Mudah Bergaul.", "Konsisten.", "Cepat belajar."]
+      arti : "Potensi atau keunggulan yang dimiliki",
+      items: ["Kekuatan pertama.", "Kekuatan kedua.", "Kekuatan ketiga."]
     },
     {
       key  : "W",
       nama : "Weakness",
-      arti : "kelemahan",
-      items: ["Cepat Bosan.", "Overthinking.", "Sulit mengingat tugas"]
+      arti : "Hal yang masih perlu dikembangkan",
+      items: ["Kelemahan pertama.", "Kelemahan kedua.", "Kelemahan ketiga."]
     },
     {
       key  : "O",
       nama : "Opportunity",
-      arti : "Peluang",
-      items: ["Mencoba beberapa beasiswa.", "Teknologi yang membantu pembelajaran dengan akses digital.", "Skill yang terus diasah."]
+      arti : "Peluang untuk mengembangkan potensi diri",
+      items: ["Peluang pertama.", "Peluang kedua.", "Peluang ketiga."]
     },
     {
       key  : "T",
       nama : "Threat",
-      arti : "Tantangan",
-      items: ["Persaingan.", "Pengaruh lingkungan.", "Distraksi."]
+      arti : "Tantangan yang berpotensi menghambat",
+      items: ["Tantangan pertama.", "Tantangan kedua.", "Tantangan ketiga."]
     }
   ],
   /* ── 5. MIND OF US — maksimal 5 anggota kelompok ───────────── */
   kelompok: [
     {
-      nama    : "Sabarino Ignas Arahon Purba",
-      asal    : "Tangerang Selatan",
-      prodi   : "Teknik Telekomunikasi",
-      fakultas: "Teknik Elektro",
-      hobi    : "Gastomini",
-      funFact : "Komitmen.",
+      nama    : "Nama Anggota 1",
+      asal    : "Kota Asal",
+      prodi   : "Program Studi",
+      fakultas: "Fakultas",
+      hobi    : "Hobi",
+      funFact : "Fun fact anggota ini.",
+      foto    : ""                 // opsional: "assets/img/anggota1.jpg"
     },
     {
-      nama    : "Rifqi Fadhilah2",
-      asal    : "Jakarta Barat",
-      prodi   : "Sistem Informasi",
-      fakultas: "Rekayasa Industri",
-      hobi    : "Olahraga",
-      funFact : "Mudah Berteman.",
+      nama    : "Nama Anggota 2",
+      asal    : "Kota Asal",
+      prodi   : "Program Studi",
+      fakultas: "Fakultas",
+      hobi    : "Hobi",
+      funFact : "Fun fact anggota ini.",
+      foto    : ""
     },
     {
-      nama    : "Rafee Adji Nugroho ",
-      asal    : "Depok",
-      prodi   : "Teknologi Informasi",
-      fakultas: "Informatika",
-      hobi    : "Bermain Game",
-      funFact : "Mudah Bosan.",
+      nama    : "Nama Anggota 3",
+      asal    : "Kota Asal",
+      prodi   : "Program Studi",
+      fakultas: "Fakultas",
+      hobi    : "Hobi",
+      funFact : "Fun fact anggota ini.",
+      foto    : ""
     },
     {
-      nama    : "Ksatria Ghassan ",
-      asal    : "DKI Jakarta ",
-      prodi   : "Teknologi Informas",
-      fakultas: "Informatika",
-      hobi    : "Berenang",
-      funFact : "Jahil.",
+      nama    : "Nama Anggota 4",
+      asal    : "Kota Asal",
+      prodi   : "Program Studi",
+      fakultas: "Fakultas",
+      hobi    : "Hobi",
+      funFact : "Fun fact anggota ini.",
+      foto    : ""
     },
     {
-      nama    : "Nadira tifannya chalista",
-      asal    : "Bekasi",
-      prodi   : "Sistem Informasi",
-      fakultas: "Rekayasa Industri",
-      hobi    : "Olahraga",
-      funFact : "Mudah Mengantuk.",
+      nama    : "Nama Anggota 5",
+      asal    : "Kota Asal",
+      prodi   : "Program Studi",
+      fakultas: "Fakultas",
+      hobi    : "Hobi",
+      funFact : "Fun fact anggota ini.",
+      foto    : ""
     }
   ],
   /* ── 6. RESUME — satu objek per materi PKKMB ─────────────────
