@@ -199,12 +199,27 @@ const CONTENT = {
       kesimpulan : "Kampus menyediakan fasilitas untuk mendeteksi plagiarism dan menyediakan sumber untuk membuat jurnal atau artikel."
     },
     {
-      materi     : "Sharing Mahasiswa",
+      materi     : "Sistem Perkuliahan dan Aturan Akademik",
       tanggal    : "PKKMB Day 2",
       poinUtama  : ["Perkuliahan dalam satu semester berjalan dengan 16 kali pertemun, Kampus memiliki aturan dimana mewajibkan ketidakhadiran maksimal hanya sebanyak 3 kali per mata kuliah."],
       dipelajari : ["Penilaian menggunakan sistem hufur A-E dengan standar kelulusan minimum bernilai C. Mahasiswa dapat berkonseling pada guru pembimbing masing-masing tentang akademik."],
       kesimpulan : "Mahasiswa diwajibkan mengikuti perkuliahan secara disiplin karena ini sangat dibutuhkan untuk perencanaan studi seseorang kedepannya."
     },
+    {
+      materi     : "Etika ahasiswa DKV",
+      tanggal    : "PKKMB Day 2",
+      poinUtama  : ["Menjadi mahasiswa bukan hanya tentang nilai. Ada cara kita berkomunikasi dan menghargai orang lain. Menyikapi perbedaan dengan bertanggung jawab. Etika adalah tentang bagaimana kita menciptakan lingkungan yang saling menghargai"],
+      dipelajari : ["Attitude yang baik juga bagiand ari skill yang akan kita bawa ketika kita lulus. Banyak hal penting yang harus di perhatikan antara dosen dan mahasiswa  seperti waktu dan kesepakatan dengan bertanggung jawab."],
+      kesimpulan : "Membangun citra dan relasi dimulai dari sikap saling menghargai, berkomunikasi dengan sopan, serta menghargai waktu dan kesepakatan yang telah dibuat."
+    },  
+    {
+      materi     : "Modal Prestasi, Gratis Registrasi",
+      tanggal    : "PKKMB Day 2",
+      poinUtama  : ["program ini membentuk dukungan prodi terhadap mahasiswa aktif berkompetisi secara mandiri. Dukungan ini diharapkan dapat mendorong mahasiswa untuk mengembangkan potensi, meningkatkan pengalaman serta meraih perstasi di berbagai bidang."],
+      dipelajari : ["Memotivasi mahasiswa untuk ikut serta dalam kompetisi agar dapat mengembangkan diri."],
+      kesimpulan : "semakin banyak poin yang dikumpulkan dapat membuat nilai akhir yang didapatkan lebih tinggi."
+    },
+    
     {
       materi     : "Sharing Mahasiswa",
       tanggal    : "PKKMB Day 3",
