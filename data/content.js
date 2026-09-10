@@ -146,27 +146,22 @@ const CONTENT = {
      Tambah / kurangi blok sesuai jumlah materi yang kamu ikuti.  */
   resume: [
     {
-      materi     : "Judul Materi 1",
-      pemateri   : "Nama Pemateri",
-      tanggal    : "Hari, Tanggal",
+      materi     : "Layanan SSO & Pusat Teknologi Informasi (PUTI)",
+      tanggal    : "PRA PKKMB",
       poinUtama  : [
-        "Poin utama pertama dari materi ini.",
-        "Poin utama kedua dari materi ini.",
-        "Poin utama ketiga dari materi ini."
+        "SSO (Single Sign-On) mengintegrasikan seluruh akses layanan digital kampus, termasuk Microsoft 365, IgraSias, MyTelU, dan jaringan Wi-Fi."
       ],
       dipelajari : [
-        "Hal baru pertama yang kamu pelajari.",
-        "Hal baru kedua yang kamu pelajari."
+        "Cara melakukan aktivasi akun terpusat melalui domain satu.telkomuniversity.ac.id menggunakan.",
       ],
-      kesimpulan : "Tulis kesimpulan singkatmu dari materi ini."
+      kesimpulan : "Penguasaan layanan SSO dan fasilitas PUTI sangat vital sebagai fondasi untuk mengakses dan mengelola seluruh administrasi akademik secara digital."
     },
     {
-      materi     : "Judul Materi 2",
-      pemateri   : "Nama Pemateri",
-      tanggal    : "Hari, Tanggal",
-      poinUtama  : ["Poin utama pertama.", "Poin utama kedua."],
-      dipelajari : ["Hal baru pertama.", "Hal baru kedua."],
-      kesimpulan : "Tulis kesimpulan singkatmu dari materi ini."
+      materi     : "Pencegahan dan Penanganan Kekerasan di Perguruan Tinggi (PPKPT)",
+      tanggal    : "PRA PKKMB",
+      poinUtama  : ["Kampus memiliki kebijakan dan tidak menoleransi segala bentuk perundungan, dengan sanksi yang bertahap."],
+      dipelajari : ["Sanksi yang diberikan bertahap tergantung dari tindakapan apa yang dilakukan, data diri pelapor juga dijaga kerahasiaannya dengan akses melalui ruang konseling yang disediakan"],
+      kesimpulan : "Fasilitas yang disediakan oleh kampus dapat menciptakan ruang aman sesama mahasiswa."
     },
     {
       materi     : "Judul Materi 3",
